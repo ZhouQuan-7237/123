@@ -3,8 +3,5 @@ package main
 import "fmt"
 
 func main() {
-
 	fmt.Println("hello world--from branch-2")
-  fmt.Println("hello world--from branch-1")
-  
 }
