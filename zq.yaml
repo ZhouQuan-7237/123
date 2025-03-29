@@ -5,7 +5,6 @@ mode: "development"
 data_base:
 
 drive: "mysql" #不用修改
-port: "3306" #不用修改
 
 user: "zq" #修改为自己的数据库用户名
 
