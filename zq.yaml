@@ -7,7 +7,8 @@ data_base:
 drive: "mysql" #不用修改
 port: "3306" #不用修改
 
-user: "zyf" #修改为自己的数据库用户名
+user: "zq" #修改为自己的数据库用户名
+
 pwd: "zhouquan1134" #修改为自己的数据库密码
 host: "127.0.0.1" #不用修改
 database: "zq_mysql" #修改为自己的数据库名称（记得先创建数据库）
