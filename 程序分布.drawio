@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="WgZST6R4D_UCHKurKqY--1" value="内核空间" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="WgZST6R4D_UCHKurKqY--1" value="kernel（内核空间）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="153" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WgZST6R4D_UCHKurKqY--2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.499;exitY=0.071;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="u7OvfoyCI4l_xh0M7ZDs-8" edge="1">
@@ -13,22 +13,22 @@
             <mxPoint x="241" y="191" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WgZST6R4D_UCHKurKqY--3" value="Stack区（栈区）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="WgZST6R4D_UCHKurKqY--3" value="stack区（栈区）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="193" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WgZST6R4D_UCHKurKqY--4" value="mmap区&lt;div&gt;（空间区/内存映射区）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="233" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="WgZST6R4D_UCHKurKqY--5" value="Heap区（堆区）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="WgZST6R4D_UCHKurKqY--5" value="heap区（堆区）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="273" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="WgZST6R4D_UCHKurKqY--6" value="Bss段" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="WgZST6R4D_UCHKurKqY--6" value=".b&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ss段&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(未初始化数据段）&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="313" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="WgZST6R4D_UCHKurKqY--7" value="Data段" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="WgZST6R4D_UCHKurKqY--7" value=".data段&lt;br&gt;（初始化数据段）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="353" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="u7OvfoyCI4l_xh0M7ZDs-1" value="Ro段(常量区）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="u7OvfoyCI4l_xh0M7ZDs-1" value=".rodata段(常量区）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="393" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="u7OvfoyCI4l_xh0M7ZDs-2" value="高地址" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -49,7 +49,7 @@
         <mxCell id="u7OvfoyCI4l_xh0M7ZDs-8" value="低地址" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="212" y="435" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="u7OvfoyCI4l_xh0M7ZDs-9" value="Text段(代码段）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="u7OvfoyCI4l_xh0M7ZDs-9" value=".text段(代码段）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="433" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="u7OvfoyCI4l_xh0M7ZDs-11" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;direction=west;" parent="1" vertex="1">
