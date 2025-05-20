@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
   <diagram name="第 1 页" id="KK3FCtFLs3KHIXqktHmG">
-    <mxGraphModel dx="1188" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1011" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,13 +13,13 @@
             <mxPoint x="241" y="191" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WgZST6R4D_UCHKurKqY--3" value="栈区（Stack）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="WgZST6R4D_UCHKurKqY--3" value="Stack区（栈区）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="193" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="WgZST6R4D_UCHKurKqY--4" value="空间区/内存映射区" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="WgZST6R4D_UCHKurKqY--4" value="mmap区&lt;div&gt;（空间区/内存映射区）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="233" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="WgZST6R4D_UCHKurKqY--5" value="堆区（Heap&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;）&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="WgZST6R4D_UCHKurKqY--5" value="Heap区（堆区）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="273" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WgZST6R4D_UCHKurKqY--6" value="Bss段" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -36,20 +36,20 @@
         </mxCell>
         <mxCell id="u7OvfoyCI4l_xh0M7ZDs-5" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="203" as="sourcePoint" />
-            <mxPoint x="390" y="223" as="targetPoint" />
+            <mxPoint x="393" y="203" as="sourcePoint" />
+            <mxPoint x="393" y="223" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="u7OvfoyCI4l_xh0M7ZDs-7" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="391" y="304" as="sourcePoint" />
-            <mxPoint x="391" y="284" as="targetPoint" />
+            <mxPoint x="393" y="302" as="sourcePoint" />
+            <mxPoint x="393" y="282" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="u7OvfoyCI4l_xh0M7ZDs-8" value="低地址" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="212" y="435" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="u7OvfoyCI4l_xh0M7ZDs-9" value="Text段（代码段）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="u7OvfoyCI4l_xh0M7ZDs-9" value="Text段(代码段）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="433" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="u7OvfoyCI4l_xh0M7ZDs-11" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;direction=west;" parent="1" vertex="1">
