@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
   <diagram name="第 1 页" id="KK3FCtFLs3KHIXqktHmG">
-    <mxGraphModel dx="1011" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="983" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,7 +28,7 @@
         <mxCell id="WgZST6R4D_UCHKurKqY--7" value=".data段&lt;br&gt;（初始化数据段）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="353" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="u7OvfoyCI4l_xh0M7ZDs-1" value=".rodata段(常量区）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="u7OvfoyCI4l_xh0M7ZDs-1" value=".rodata段&lt;br&gt;(常量区/只读数据段）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="393" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="u7OvfoyCI4l_xh0M7ZDs-2" value="高地址" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -79,13 +79,13 @@
             <mxPoint x="423" y="401.48387096774206" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kNTeERKgsORHHhE6Im_L-1" value="kernel（内核空间）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="kNTeERKgsORHHhE6Im_L-1" value="kernel（内核空间）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="178" y="158" width="130" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="kNTeERKgsORHHhE6Im_L-2" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+        <mxCell id="kNTeERKgsORHHhE6Im_L-2" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="193" width="10" height="277" as="geometry" />
         </mxCell>
-        <mxCell id="kNTeERKgsORHHhE6Im_L-3" value="user（用户空间）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="kNTeERKgsORHHhE6Im_L-3" value="user（用户空间）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="180" y="318" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
