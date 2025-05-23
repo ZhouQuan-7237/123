@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
   <diagram name="第 1 页" id="goHH-cacQclihP8tj52F">
-    <mxGraphModel dx="837" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1011" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,17 +10,17 @@
         <mxCell id="dSSBSxWVxvR64Uiz2ZRZ-9" value="上一个帧指针（Saved EBP）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="326" y="323" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dSSBSxWVxvR64Uiz2ZRZ-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.67;exitY=0.033;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+        <mxCell id="dSSBSxWVxvR64Uiz2ZRZ-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.557;exitY=-0.05;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="310.9000000000001" y="486.31999999999994" as="sourcePoint" />
-            <mxPoint x="310" y="265" as="targetPoint" />
+            <mxPoint x="309.99" y="553" as="sourcePoint" />
+            <mxPoint x="310" y="268" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dSSBSxWVxvR64Uiz2ZRZ-13" value="高地址&lt;br&gt;（栈顶）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="275" y="230" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="dSSBSxWVxvR64Uiz2ZRZ-14" value="低地址&lt;br&gt;（栈底）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="271" y="483" width="70" height="40" as="geometry" />
+          <mxGeometry x="271" y="552" width="70" height="40" as="geometry" />
         </mxCell>
         <mxCell id="dSSBSxWVxvR64Uiz2ZRZ-40" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.018;exitY=0.426;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -39,9 +39,6 @@
         </mxCell>
         <mxCell id="AIi-UTc1Uuxe0sITR6zi-2" value="局部变量&lt;br&gt;（Local Vars）&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="326" y="443" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="AIi-UTc1Uuxe0sITR6zi-3" value="由调用者压入" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="455" y="400" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AIi-UTc1Uuxe0sITR6zi-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.018;exitY=0.426;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -64,8 +61,11 @@
         <mxCell id="AIi-UTc1Uuxe0sITR6zi-9" value="函数内部声明的变量" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="459" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="AIi-UTc1Uuxe0sITR6zi-10" value="（C语言中典型的栈帧结构示意图）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="250" y="519" width="280" height="30" as="geometry" />
+        <mxCell id="AIi-UTc1Uuxe0sITR6zi-10" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;（C语言中典型的栈帧结构示意图）&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="286" y="582" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AIi-UTc1Uuxe0sITR6zi-12" value="临时保存区 / 对齐区&lt;br&gt;（Padding / Temp）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="326" y="503" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
